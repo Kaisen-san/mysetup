@@ -1,0 +1,41 @@
+{
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'Fira Code Retina'",
+  "editor.fontLigatures": true,
+  "terminal.integrated.shell.linux": "/bin/zsh",
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": "/css"
+    }
+  ],
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "git.autofetch": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-d>": false,
+    "<C-f>": false,
+    "<C-h>": false,
+    "<C-s>": false,
+    "<C-x>": false,
+    "<C-z>": false,
+    "<C-w>": false,
+    "<C-y>": false
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  }
+}
