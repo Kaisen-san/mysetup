@@ -15,7 +15,7 @@
 - [x] **Discord** - *Official*
 - [x] **Fira Code (tff, woff, woff2)** - *Official*
 - [ ] **Flutter** - *AUR*
-- [ ] **Git** - *Official*
+- [x] **Git** - *Official*
 - [x] **Google Chrome** - *AUR*
 - [x] **Insomnia** - *Snap*
 - [x] **Mousepad** - *Official*
@@ -81,9 +81,9 @@ nvm install --lts
 
 > Format: <**global_name**> - <*npm_source*>
 
-- [ ] **Angular** - *npm i -g @angular/cli*
-- [ ] **Vue** - *npm i -g @vue/cli*
-- [x] **Yarn** - *npm i -g yarn*
+- [ ] **Angular** - *@angular/cli*
+- [ ] **Vue** - *@vue/cli*
+- [x] **Yarn** - *yarn*
 
 ## VSCode
 
