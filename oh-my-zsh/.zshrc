@@ -13,6 +13,9 @@
 # If you want to run Dart scripts directly from terminal, uncomment next line.
 # export PATH="$PATH:/opt/flutter/bin/cache/dart-sdk/bin"
 
+# If you want to have Chrome as your default browser, uncomment next line.
+export BROWSER=/usr/bin/google-chrome-stable
+
 # Path to your oh-my-zsh installation.
 export ZSH="~/.oh-my-zsh"
 

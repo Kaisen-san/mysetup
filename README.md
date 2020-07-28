@@ -29,7 +29,13 @@
 
 ### Troubleshooting
 
-If you have problems to run Flutter after installing it (`flutter doctor -v` is returning "Unable to 'pub upgrade'...") run the following command:
+If, even after setting Chrome as the default browser in `System Setting -> Application -> Default Applications -> Web Browser`, it doesn't recognise itself as such, replace all `firefox.desktop` to `google-chrome.desktop` in `~/.config/mimeapps.list` file, and run the following command:
+
+```bash
+sudo xdg-settings set default-web-browser google-chrome.desktop
+```
+
+If you have problems to run Flutter after installing it (`flutter doctor -v` is returning "Unable to 'pub upgrade'..."), run the following command:
 
 ``` bash
 sudo chown -hRf kaisen:kaisen /opt/flutter # Note that kaisen:kaisen and /opt/flutter are specific to my environment
@@ -84,6 +90,7 @@ nvm install --lts
 - [ ] **Angular** - *@angular/cli*
 - [ ] **Vue** - *@vue/cli*
 - [x] **Yarn** - *yarn*
+- [x] **Expo** - *expo-cli*
 
 ## VSCode
 
@@ -99,6 +106,7 @@ nvm install --lts
 - [x] **Debugger for Chrome**
 - [x] **Docker**
 - [x] **Dracula Official**
+- [x] **ESLint**
 - [x] **ES7 React/Redux/GraphQL/React-Native snippets**
 - [x] **Excel Viewer**
 - [ ] **Flutter**
