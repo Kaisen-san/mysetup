@@ -1,11 +1,72 @@
 {
   "workbench.colorTheme": "Dracula",
+  "workbench.editor.labelFormat": "short",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 21,
   "editor.fontFamily": "'Fira Code Retina'",
   "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.parameterHints.enabled": false,
+  "editor.rulers": [80, 120],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "breadcrumbs.enabled": false,
+
   "terminal.integrated.shell.linux": "/bin/zsh",
+
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  "extensions.ignoreRecommendations": true,
+
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json"
+  },
+
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+
+  "gitlens.codeLens.recentChange.enabled": false,
+
+  "liveshare.featureSet": "insiders",
+
+  "liveServer.settings.donotShowInfoMsg": true,
+
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+
+  "typescript.suggest.autoImports": true,
+  "typescript.tsserver.log": "verbose",
+
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+
   "liveSassCompile.settings.formats": [
     {
       "format": "compressed",
@@ -13,14 +74,39 @@
       "savePath": "/css"
     }
   ],
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "prettier.semi": false,
-  "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": true,
-  "git.autofetch": true,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "liveServer.settings.donotShowInfoMsg": true,
+
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.webpack.js": "webpack"
+  },
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "domain": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "providers": "include",
+    "subscribers": "messages",
+    "useCases": "controller",
+    "kafka": "scripts",
+    "mappers": "meta",
+    "_shared": "shared",
+    "eslint-config": "tools"
+  },
+
   "vim.handleKeys": {
     "<C-a>": false,
     "<C-d>": false,
@@ -31,11 +117,5 @@
     "<C-z>": false,
     "<C-w>": false,
     "<C-y>": false
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
   }
 }
