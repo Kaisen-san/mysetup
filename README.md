@@ -115,6 +115,7 @@ nvm install --lts
 - [ ] **GraphQL for VSCode**
 - [x] **Live Sass Compiler**
 - [x] **Live Server**
+- [x] **Live Share**
 - [x] **Material Icon Theme**
 - [x] **Prettier - Code formatter**
 - [x] **Python**
