@@ -106,6 +106,7 @@ nvm install --lts
 - [x] **Debugger for Chrome**
 - [x] **Docker**
 - [x] **Dracula Official**
+- [x] **EditorConfig for VS Code**
 - [x] **ESLint**
 - [x] **ES7 React/Redux/GraphQL/React-Native snippets**
 - [x] **Excel Viewer**
