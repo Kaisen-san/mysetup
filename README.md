@@ -126,6 +126,7 @@ nvm install --lts
 - [ ] **Vetur**
 - [x] **Vim**
 - [x] **Visual Studio IntelliCode**
+- [x] **vscode-styled-components**
 - [x] **YAML**
 
 > Unchecked ones are optional (I don't install them right away because I don't use them all the time)

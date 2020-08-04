@@ -117,6 +117,7 @@
     "<C-j>": false,
     "<C-k>": false,
     "<C-o>": false,
+    "<C-p>": false,
     "<C-s>": false,
     "<C-x>": false,
     "<C-z>": false,
